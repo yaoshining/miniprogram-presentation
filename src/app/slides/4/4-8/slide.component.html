@@ -1,0 +1,23 @@
+<h2>Webkit的由来</h2>
+<div class="desktop-envs">
+    <div class="gnome">
+        <div class="image-wrapper">
+            <img [src]="showLaunchPad ? 'assets/images/LaunchPad.png' : 'assets/images/Gnome3.png'" usemap="#gnomeMap" style="border: none;">
+        </div>
+        <h4 style="color: red">Gnome</h4>
+    </div>
+    <div class="kde">
+        <div class="image-wrapper">
+            <img [src]="showBeginPanel ? 'assets/images/kde_2.png' : 'assets/images/kde_1.png'" style="border: none;">
+            <a href="javascript:void(0)" (click)="showBeginPanel = !showBeginPanel"></a>
+        </div>
+        <h4 style="color: blue">KDE</h4>
+    </div>
+</div>
+<p>
+    <span class="fragment fade-in">Konqueror</span>
+</p>
+
+<map name="gnomeMap" id="gnomeMap">
+    <area shape="circle" coords="0, 0, 15" (click)="showLaunchPad = !showLaunchPad" />
+</map>

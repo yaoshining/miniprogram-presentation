@@ -1,0 +1,17 @@
+<h2>DOM + CSSOM = 渲染树</h2>
+<p>
+    <img src="assets/images/render_tree.png" style="border: none;box-shadow: none">
+</p>
+<aside class="notes">
+    <ol>
+        <li>
+            从 <span style="color: red">DOM 树</span>的根节点开始遍历每个<span style="color: red">可见节点</span>。
+            <ul>
+                <li>某些节点不可见（例如<span style="color: red">脚本标记、元标记</span>等）</li>
+                <li>某些节点通过 CSS 隐藏(<span style="color: red">display: none</span>)</li>
+            </ul>
+        </li>
+        <li>对于每个可见节点，为其找到适配的 <span style="color: red">CSSOM 规则</span> 并应用它们。</li>
+        <li>发射可见节点，连同其内容和计算的样式。</li>
+    </ol>
+</aside>

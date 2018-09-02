@@ -1,0 +1,12 @@
+<h2>HTML -> DOM</h2>
+<p>
+    <img data-src="assets/images/html2dom.png" style="border: none;box-shadow: none">
+</p>
+<aside class="notes">
+    <ol>
+        <li><b>转换：</b> 浏览器从<span style="color: red">磁盘或网络</span>读取 HTML 的<span style="color: red">原始字节</span>，并根据文件的指定编码（例如 <span style="color: red">UTF-8</span>）将它们转换成各个字符。</li>
+        <li><b>令牌化：</b> 浏览器<span style="color: red">将字符串</span>转换成 W3C HTML5 标准规定的各种令牌，例如，“&lt;html&gt;”、“&lt;body&gt;”，以及其他尖括号内的字符串。每个令牌都具有特殊含义和一组规则。</li>
+        <li><b>词法分析：</b> 发出的<span style="color: red">令牌</span>转换成定义其属性和规则的“<span style="color: red">对象</span>”。</li>
+        <li><b>DOM 构建：</b> 依据<span style="color: red">关系(父子关系)</span>构建树形结构。</li>
+    </ol>
+</aside>

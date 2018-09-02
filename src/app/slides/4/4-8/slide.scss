@@ -1,0 +1,19 @@
+.desktop-envs {
+    display: flex;
+    flex-direction: row;
+    img {
+        margin: 0;
+    }
+}
+
+.image-wrapper {
+    position: relative;
+    & > a {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        bottom: 2.5%;
+        left: 2.5%;
+        border-radius: 50%;
+    }
+}

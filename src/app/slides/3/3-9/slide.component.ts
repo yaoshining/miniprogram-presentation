@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'section[slide4]',
+    // tslint:disable-next-line:component-selector
+    selector: 'section[slide3_9]',
     templateUrl: './slide.component.html',
     styleUrls: ['./slide.scss'],
 })
-export class Slide4Component implements OnInit {
+export class Slide3_9Component implements OnInit {
+
     constructor() { }
 
     ngOnInit(): void { }

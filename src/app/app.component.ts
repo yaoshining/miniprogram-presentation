@@ -9,6 +9,8 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     Reveal.initialize({
+      width: 960,
+      height: 700,
       controls: true,
       progress: true,
       history: true,
@@ -19,12 +21,11 @@ export class AppComponent implements OnInit {
         { src: 'plugin/markdown/markdown.js' },
         { src: 'plugin/notes/notes.js', async: true },
         { src: 'plugin/zoom-js/zoom.js', async: true },
-        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { 
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() {
           window['hljs'].initHighlightingOnLoad();
         } }
       ]
     });
   }
 
-  title = 'app';
 }

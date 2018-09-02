@@ -1,0 +1,32 @@
+.left-side {
+    float: left;
+    width: 50%;
+}
+
+.right-side {
+    float: right;
+    width: 50%;
+    color: #7f7f7f;
+}
+
+svg {
+    margin-bottom: 3em;
+}
+
+.slogan {
+    color: #bfbfbf;
+    font-size: .4em;
+    font-weight: 300;
+}
+
+.menu-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(2em, -50%);
+    font-size: .8em;
+    & > li {
+        margin-bottom: 1em;
+        font-weight: 800;
+    }
+}

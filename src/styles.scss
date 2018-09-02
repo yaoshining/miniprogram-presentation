@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~reveal.js/css/reveal';
 // @import './styles/theme/black';
-@import './styles/theme/league';
+// @import './styles/theme/league';
+@import './styles/theme/white';
 @import './styles/theme/zenburn';
+@import './styles/top-bar';
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}

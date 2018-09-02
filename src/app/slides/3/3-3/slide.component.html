@@ -1,6 +1,17 @@
-<h2>Basement Level 2</h2>
-<p>That's it, time to go back up.</p>
-<br>
-<a href="#/2">
-    <img width="178" height="238" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-lazy-loaded="">
-</a>
+<h2>Page Frame</h2>
+<div class="container">
+    <pre>
+        <code class="html" [innerHTML]="trustedCode">  
+        </code>
+    </pre>
+    <ul>
+        <li>Native 预先加载额外一个Webview</li>
+        <li>当打开指定页面时，无需请求额外资源，直接渲染</li>
+        <li>每个Frame中都提供一个获取VirtualDOM的方法$gwx()</li>
+    </ul>
+</div>
+<aside class="notes">
+    <ol>
+        <li>小程序视图的模板文件，全部的页面都使用此载入渲染。且全部的WXML都拆解为JS实现打包到这里 </li>
+    </ol>
+</aside>
