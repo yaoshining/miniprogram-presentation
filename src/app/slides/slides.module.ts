@@ -1,3 +1,7 @@
+import { Slide5_7Component } from './5/5-7/slide.component';
+import { Slide5_5Component } from './5/5-5/slide.component';
+import { Slide5_4Component } from './5/5-4/slide.component';
+import { Slide5_3Component } from './5/5-3/slide.component';
 import { Slide3_13Component } from './3/3-13/slide.component';
 import { Slide3_12Component } from './3/3-12/slide.component';
 import { Slide3_9Component } from './3/3-9/slide.component';
@@ -29,6 +33,10 @@ import { Slide3_4Component } from '@/slides/3/3-4';
 import { Slide3_8Component } from '@/slides/3/3-8';
 import { Slide3_10Component } from '@/slides/3/3-10';
 import { Slide3_11Component } from '@/slides/3/3-11';
+import { Slide5_2Component } from '@/slides/5/5-2';
+import { Slide5_6Component } from '@/slides/5/5-6';
+import { Slide5_8Component } from '@/slides/5/5-8';
+import { Slide5_9Component } from '@/slides/5/5-9';
 
 @NgModule({
     declarations: [
@@ -60,7 +68,15 @@ import { Slide3_11Component } from '@/slides/3/3-11';
         Slide4_11Component,
         Slide4_12Component,
         Slide4_13Component,
-        Slide5_1Component
+        Slide5_1Component,
+        Slide5_2Component,
+        Slide5_3Component,
+        Slide5_4Component,
+        Slide5_5Component,
+        Slide5_6Component,
+        Slide5_7Component,
+        Slide5_8Component,
+        Slide5_9Component
     ],
     imports: [ CommonModule ],
     exports: [
@@ -92,7 +108,15 @@ import { Slide3_11Component } from '@/slides/3/3-11';
         Slide4_11Component,
         Slide4_12Component,
         Slide4_13Component,
-        Slide5_1Component
+        Slide5_1Component,
+        Slide5_2Component,
+        Slide5_3Component,
+        Slide5_4Component,
+        Slide5_5Component,
+        Slide5_6Component,
+        Slide5_7Component,
+        Slide5_8Component,
+        Slide5_9Component
     ],
     providers: [],
 })
